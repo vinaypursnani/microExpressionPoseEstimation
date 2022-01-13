@@ -1,2 +1,2 @@
-# microExpressionPoseEstimation
-Creating a website for interrogation purposes, by catching those unnoticed hints through expressions and body posture for clearer deductions.   
+# microExp: Expression Detection and Posture Estimation
+A Machine Learning based solution that eliminates the need of deception experts during interrogation purposes.   
