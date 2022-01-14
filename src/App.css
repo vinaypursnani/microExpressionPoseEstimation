@@ -1,0 +1,97 @@
+p {
+  line-height: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  padding: 0 2rem;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+}
+
+.header p,
+.icon {
+  font-size: large;
+  font-weight: 700;
+  color: #3b82f6;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: full;
+}
+
+.sidebar {
+  width: 6rem;
+  padding: 1rem;
+  border-color: gray;
+  display: flex;
+  justify-content: center;
+  color: #475569;
+  font-weight: 600;
+  font-size: small;
+}
+
+.sidebar p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.workspace {
+  width: full;
+  height: full;
+  flex-grow: 1;
+  background-color: #f1f5f9;
+  padding: 1rem 1rem;
+}
+
+.timeFrame {
+  margin-bottom: 10px;
+  font-size: medium;
+  border: none;
+  padding: 10px;
+  border-radius: 0.25rem;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.metric-block {
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+}
+
+.dimensions {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  width: full;
+}
+
+.dimensions-head {
+  flex-grow: 1;
+  border-radius: 0.5rem;
+  text-align: center;
+  background-color: #e2e8f0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
