@@ -16,6 +16,8 @@ A Machine Learning based solution that eliminates the need of deception experts 
 ![victory](https://user-images.githubusercontent.com/52756604/149301006-ff0fd8da-121e-4463-8c12-b7129ce526c4.jpg)
 
 
+# TECH STACK
+![image](https://user-images.githubusercontent.com/52756604/151203933-6afa8df6-c1f8-4715-9f33-edfa015673b8.png)
 
 # Getting Started with Create React App
 
